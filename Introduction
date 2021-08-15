@@ -1,0 +1,42 @@
+Usually for less than 3 years experienced developers. Good to know for EVERY SOFTWARE PERSON {THINK ABOUT YOUR 40 YEAR CAREER XD}
+Main aim: To check if you can write maintainable, testable, understandable and extensible code.
+   Extensible: Minimum efforts to add new features.Ability to extend the current codebase to new features
+
+Learning journey:
+   One object oriented language with all its concepts brushed up.
+   OOP: Object oriented principals and the ability to apply them in the above language.
+   SOLID principals: Understanding of all the solid principals and including them in your design.
+   Design Patterns: Being aware of most common design patterns along with their application in your own code/LLD;
+
+   Most imp: Implementing and practicing what you have learned above in rel interview questions to design your own LLD 
+            [You don't need to learn the answers but learn the concepts to make the answers]
+
+LLD interviews: [Can be of two types] 
+
+   1. Design discussion
+   2. Machine coding
+
+   1. Design discussion
+
+   :: Abstract problem. Not a detailed statement.
+   :: You need to clarify the requirements/scope of software [Don't assume]
+   :: Examples : Food delivery (Don't assume he wants features of swiggy:: 'CLARIFY').
+               : Cab booking   (Don't assume its ola features)
+               : Parking lot
+               : Expense Management system (Splitwise like)
+               : Tic tak toe, Snake Ladder
+               : Design a Pen
+   :: 60 mins to 120 mins
+   :: Gather all requirements --> Design and show using class diagram -->Follow up questions
+
+   2. Machine coding
+
+   :: Given detailed problem statement (API,functions, technologies etc.)
+   :: Take home assignments
+   :: Actual coded software
+   :: Class diagram not neccessary but good to have.
+   :: Some minutes or days. Working code with OOP principals implemented required 
+
+
+   
+
