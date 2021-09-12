@@ -34,9 +34,35 @@ Tenet port 23(remote login)
 ftp 21 http 80
 Ports below 1024 are reserved for standard services therefore use ports above 1024
 
+KERNEL:
+Much like an OS but not an OS. Heart of the operating system. Also present in phones Os if you have heard about it. KERNER IS A PART OF OS
+Main purpose is disk mgmt , task mgmt, process mgmt but not security. An OS needs a kernel to run. Kerner resides in a part of RAM that is not accessible to us.Os the the first program that loads when conputer boots up and then OS launches the kernel.Its the first program to load when operating system loads.
+Any program can be in user space or kernel space.Kernel is a connection between software and hardware. The program here is safe from disturbances from user space programs.Has almost all the permission. An exception in kernel space crashes the whole OS. User space has PVA. kernel has single PVA.
+for program for execute it keeps switching between wser space and kernel space.
+
+Types are monolithic and micro kernel
+See difference in https://www.youtube.com/watch?v=88vlIFfsmKM&list=PL0s3O6GgLL5csKdIeV-Z7fZXohZUMAAsG&index=11
 
 
-Difference between process and program and thread? Different types of process.
+Difference between process and program and thread? 
+
+https://www.youtube.com/watch?v=c0HbxwfxeMM
+https://www.youtube.com/watch?v=ITc09gOrqZk
+
+ Program::
+ Executable code stored in harddisk
+
+ Process::
+ stack: in down dirction for function call.
+ heap: dynamic memory allocation. grows upwards
+ data: static global variables
+ code: program code
+
+ 
+
+
+
+Different types of process.
 Define virtual memory, thrashing, threads.  
 What is RAID ? Different types.
 What is a deadlock ? Different conditions to achieve a deadlock.
