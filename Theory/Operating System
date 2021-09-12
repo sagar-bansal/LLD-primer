@@ -1,0 +1,64 @@
+Operating System:
+
+1. What is the main purpose of an operating system? Discuss different types?
+
+Main Purposes::
+
+Convinience: Interface between user and hardware for managing the hardware/resources
+Throughput: Increase the output. Number of prcesses by unit time. (does this by resource mgmt and process mgmt[cpu scheduling])
+Storage mgmt: Through file system [for harddisk]
+Memory mgmt: [for RAM] because ram is limited. OS does ram swapping
+Security and privacy: No everyone can access the OS.You have to login first. Makes processes secure(security between processes)
+
+Linux has more throughput than windows
+
+Types::
+
+Real time: No delays. Missile system or flight systems
+Distributed: Processing environment is dispersed      connected with network.
+Clustered: Multiple devices added to one network. Fault tolerence. Scalibility.
+Embedded OS: in washing machine etc. instructions are embedded
+
+
+Flow diagram of our PC: User-->Applications-->OS(Serves via system calls to hardware)-->Hardware
+
+2. What is a socket, kernel and monolithic kernel ?
+
+Sockets are strategy used for communication in client server system. It is the end point for communication
+Socket is identified with IP address and port number.
+
+Sockets are used to establish connection.It is kind of the opening list your electric socket.
+
+These servers listens to these ports
+Tenet port 23(remote login)
+ftp 21 http 80
+Ports below 1024 are reserved for standard services therefore use ports above 1024
+
+
+
+Difference between process and program and thread? Different types of process.
+Define virtual memory, thrashing, threads.  
+What is RAID ? Different types.
+What is a deadlock ? Different conditions to achieve a deadlock.
+What is fragmentation? Types of fragmentation.
+What is spooling ?
+What is semaphore and mutex (Differences might be asked)? Define Binary semaphore.
+Belady’s Anomaly
+Starving and Aging in OS
+Why does trashing occur?
+What is paging and why do we need it?
+Demand Paging, Segmentation
+Real Time Operating System, types of RTOS.
+Difference between main memory and secondary memory.
+Dynamic Binding
+FCFS Scheduling
+SJF Scheduling
+SRTF Scheduling
+LRTF Scheduling
+Priority Scheduling
+Round Robin Scheduling
+Producer Consumer Problem
+Banker’s Algorithm
+Explain Cache
+Diff between direct mapping and associative mapping
+Diff between multitasking and multiprocessing
