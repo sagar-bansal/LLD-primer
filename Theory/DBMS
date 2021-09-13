@@ -1,11 +1,20 @@
 DBMS: 
 
 1. What is DBMS ? Mention advantages.. 
+
 What is Database? 
 What is a database system? 
 What is RDBMS ? Properties.. 
 Types of database languages 
-ACID properties (VVVVV IMP) 
+
+::ACID properties (VVVVV IMP) 
+Atomicity
+consistency
+Interoperability
+durability
+https://www.javatpoint.com/acid-properties-in-dbms
+
+
 Difference between vertical and horizontal scaling 
 What is sharding 
 Keys in DBMS 

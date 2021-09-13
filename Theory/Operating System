@@ -58,12 +58,35 @@ https://www.youtube.com/watch?v=ITc09gOrqZk
  data: static global variables
  code: program code
 
- 
+Thread vs process::
+https://www.youtube.com/watch?v=ITc09gOrqZk
 
 
 
 Different types of process.
+
+https://www.gmarik.info/blog/2012/orphan-vs-zombie-vs-daemon-processes/
+
+Processes are two types based on their types of categories. The first one which you mentioned is related to event-specific process categorization and the next categorization is based on their nature. But, if someone asks you, you should ask for more clarification as to which type of category does he/she wants the classification. If null, then you should state the first(default) category as shown below:-
+
+Event-specific based category of process
+a) CPU Bound Process: Processes that spend the majority of their time simply using the CPU (doing calculations).
+
+b) I/O Bound Process: Processes that are associated with input/output-based activity like reading from files, etc.
+
+Category of processes based on their nature
+a) Independent Process: A process that does not need any other external factor to get triggered is an independent process.
+
+b) Cooperative Process: A process that works on the occurrence of any event and the outcome affects any part of the rest of the system is a cooperating process.
+
+But, Threads have got only one classification based on their nature(Single Level Thread and Multi-Level Threads).
+
+Actually, in modern operating systems, there are two levels at which threads operate. They are system or kernel threads and user-level threads. This one is generally not the classification, though some of them freely do classify. It is a misuse.
+
 Define virtual memory, thrashing, threads.  
+
+
+
 What is RAID ? Different types.
 What is a deadlock ? Different conditions to achieve a deadlock.
 What is fragmentation? Types of fragmentation.
